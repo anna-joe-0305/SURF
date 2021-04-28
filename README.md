@@ -17,6 +17,7 @@ In Malaria pathogenesis, the role of rosetting, the formation of red blood cell 
 The main function SURF_main.m contains a list of the file paths of the videos of interest. For each video first the function SURF_video_reader.m is called, which returns a textfile, that contains a tabular list of every object and its size and position on every frame. This textfile is the input to the function SURF_textfile_reader.m, which contains the actual tracking algorithm and identifies and connects rosettes from frame to frame. 
 
 ## Events
+The preprocessing of the trajectories includes the identification of "cell loss" or "cell gain" events. "cell loss" is further distinguished into "real rupter" and "rupture and reconnect", "cell gain" can be "connect only" or "pass by". The following scheme shows how the events are categorized.
 ![scheme](https://user-images.githubusercontent.com/83273863/116463192-b1ec8680-a86a-11eb-9730-c1050970d5d9.png)
 
 
