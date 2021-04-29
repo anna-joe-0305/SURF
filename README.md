@@ -21,8 +21,9 @@ The preprocessing of the trajectories includes the identification of "cell loss"
 ![scheme](https://user-images.githubusercontent.com/83273863/116463192-b1ec8680-a86a-11eb-9730-c1050970d5d9.png)
 
 # How to use the code
-*Start with SURF_main.m
-*Adjust path and filename of the video
+- Start with SURF_main.m
+- Adjust path and filename of the video
+
 Running SURF_main.m will call the functions SURF_video_reader.m and SURF_textfile_reader.m in that order.
 
 
