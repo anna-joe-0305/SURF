@@ -29,13 +29,13 @@ Running SURF_main.m will call the functions SURF_video_reader.m and SURF_textfil
 
 The results will be exported to folder, which contains the video. Each "trace" will be saved as a textfile and a plot.
 
-##Further post-processing
+## Further post-processing
 The trace-txt-files are used for further post-processing by the remaining three scripts:
--SURF_sort_traces_by_rosette_size
+- SURF_sort_traces_by_rosette_size
 
 
--SURF_sort_traces_by_rosette_fate
--SURF_elastic_modulus
+- SURF_sort_traces_by_rosette_fate
+- SURF_elastic_modulus
 
 
 
