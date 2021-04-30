@@ -28,7 +28,7 @@ The preprocessing of the trajectories includes the identification of "cell loss"
 
 Running SURF_main.m will call the functions SURF_video_reader.m and SURF_textfile_reader.m in that order.
 
-The results will be exported to folder, which contains the video. Each "trace" will be saved as a textfile and a plot. The events will be listed in event_counter_grid.txt.
+The results will be exported to the folder, which contains the video. Each "trace" will be saved as a textfile and a plot. The events will be listed in event_counter_grid.txt.
 
 ## Further post-processing
 The SURF_trace n.txt-files and event_counter_grid.txt are used for further post-processing by the remaining three scripts:
@@ -39,15 +39,15 @@ The SURF_trace n.txt-files and event_counter_grid.txt are used for further post-
 - event_grid_by_size.txt contains tables for each kind of event. the six lines of the tables correspond to the six classes of rosettes, the columns of the table correspond to the x-coordinates where the events were registered.
 
 ### SURF_sort_traces_by_rosette_fate.m
-- Adjust directoy, folders and add x-location in pixels of the end of the stenosis
+- Adjust directoy, folders and add x-location in pixels of the end of the stenosis.
 - will sort by rosette size, as before, and calculate what events happenend before and after the "end of the stenosis" x-coordinate. This result can also be read manually from event_grid_by_size.txt, which is exported from SURF_sort_traces_by_rosette_size.m.
-- what is extra, is damaged_area.txt, the export of lost area or lost cells per rosette.
+- what is extra is damaged_area.txt, the export of lost area or lost cells per rosette.
 
 ### SURF_elastic_modulus.m
-- Adjust directoy, folders and add x-location in pixels of the end of the stenosis
-- Adjust length and width of the stenosis
-- calculates velocity and deformation in each class for the undamaged rosettes only
-- plotting stress (calculated from velocity) against deformation, gives the elastic modulus of the deformed object
+- Adjust directoy, folders and add x-location in pixels of the end of the stenosis.
+- Adjust length and width of the stenosis.
+- calculates velocity and deformation in each class for the undamaged rosettes only.
+- plotting stress (calculated from velocity) against deformation, gives the elastic modulus of the deformed object.
 
 
 
