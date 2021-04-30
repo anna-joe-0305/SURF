@@ -19,6 +19,8 @@ The main function SURF_main.m contains a list of the file paths of the videos of
 ## Events
 The preprocessing of the trajectories includes the identification of "cell loss" or "cell gain" events. "cell loss" is further distinguished into "real rupter" and "rupture and reconnect", "cell gain" can be "connect only" or "pass by". The following scheme shows how the events are categorized.
 ![scheme](https://user-images.githubusercontent.com/83273863/116463192-b1ec8680-a86a-11eb-9730-c1050970d5d9.png)
+Each marker represents a detected event.
+![categorized events along traces](https://user-images.githubusercontent.com/83273863/116678574-c3887800-a9a9-11eb-9d07-3e2f6e7e4127.png)
 
 # How to use the code
 - Download the [example video]
