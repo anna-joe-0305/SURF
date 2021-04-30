@@ -3,8 +3,7 @@ Tracking Algorithm for cell aggregates
 
 
 If you need to trace assembled objects along a channel and want to detect change in shape and size and loss of components, SURF may help you. Here we describe a MATLAB based tracking algoritm named **SURF** (**SU**rvival of **R**osettes in **F**low). The script is designed to analyze high speed micrographs of cell aggregates passing a microfluidic channel. A standard measurement generates a video of 74531 frames measuring 1280 x 120 Pixels at 2000 frames per second. You can download an [example video] to run the code.
- 
- [![bsptracemitQR](https://user-images.githubusercontent.com/83273863/116454640-819fea80-a860-11eb-9f53-be79e97065e2.png)](https://youtu.be/rmezGUd0p08)
+[![example frames](https://user-images.githubusercontent.com/83273863/116681850-cab18500-a9ad-11eb-9433-adb995e10e31.png)](https://youtu.be/rmezGUd0p08)
 The image shows an overlay of a few examplary frames. SURF reads the videos, indentifies cell aggregates and follows them along the channel, to analyze their deformation and events as the loss of a cell.  All figures here are taken from an exemplary data set to visualize the function of the code. The exemplary measurement uses a cascadic channel with three stenoses of decreasing diameter of  d=11 µm, 7 µm und 5 µm and rosetting red blood cells from blood group A. %BSP Ergebnis Trajektorien im Kaskadenkanal BGA 25 mulhr 20180928 155155.avi
   
  
