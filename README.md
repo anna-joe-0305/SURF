@@ -51,6 +51,7 @@ The SURF_trace n.txt-files and event_counter_grid.txt are used for further post-
 - Adjust length and width of the stenosis.
 - calculates velocity and deformation in each class for the undamaged rosettes only.
 - plotting stress (calculated from velocity) against deformation, gives the elastic modulus of the deformed object.
+![sigma epsilon class 4](https://user-images.githubusercontent.com/83273863/116681169-e1a3a780-a9ac-11eb-9dc7-a099d8af5acc.png)
 
 
 
