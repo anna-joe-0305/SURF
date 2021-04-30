@@ -33,6 +33,7 @@ The results will be exported to the folder, which contains the video. Each "trac
 ## Further post-processing
 The SURF_trace n.txt-files and event_counter_grid.txt are used for further post-processing by the remaining three scripts:
 ### SURF_sort_traces_by_rosette_size.m
+![classes](https://user-images.githubusercontent.com/83273863/116670076-98992680-a99f-11eb-99f6-40d98cf3ef9a.png)
 - Adjust directory and folders
 - will sort traces by rosette size, calculate flowrate in each size class and export statistics of events sorted by rosette size.
 - rosettes_by_size.txt contains counts, relative frequencies, and a list of normalized sizes (size in pixel divided by single cell size in pixel) of all rosettes in each class
