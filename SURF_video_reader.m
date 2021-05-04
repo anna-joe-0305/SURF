@@ -19,8 +19,7 @@ for a=1:image_width
         for i=1:filecount
             vals(i) = ImageArray{i}(b,a);
         end
-        tmp = sort(vals);
-        bg(b,a) = int8(tmp(int8(filecount/2)));
+        bg(b,a) = int8(median(vals));
     end
 end
 
